@@ -1,6 +1,7 @@
 
 import './App.css'
 import CaseOne from './pages/CaseOne/CaseOne'
+import CaseTwo from './pages/CaseTwo/CaseTwo'
 
 function App() {
   
@@ -9,10 +10,9 @@ function App() {
     <>
       
       <CaseOne></CaseOne>
-      
-        {/* <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button> */}
+      <br></br>
+      <CaseTwo></CaseTwo>
+       
         
      
     </>
