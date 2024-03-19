@@ -1,7 +1,7 @@
 import Counter from "../../components/Counter";
 
 
-const ChildOne = ({count,setCount}) => {
+const ChildOne = () => {
     return (
         <div className='border-2 border-lime-300 max-w-4xl mx-auto rounded-lg mt-5'>
             {/* <h2 className='m-5 text-xl text-left'>ChildOne</h2> */}
@@ -9,7 +9,7 @@ const ChildOne = ({count,setCount}) => {
                 <p>1</p>
             </div>
             <div className="w-full grid place-content-center">
-                <Counter  count={count} setCount={setCount}></Counter>
+                <Counter></Counter>
             </div>
             
         </div>
